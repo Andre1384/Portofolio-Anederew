@@ -9,7 +9,7 @@ function Navbar() {
             <div className="container flex justify-between items-center">
                 
                 <div className="flex items-center space-x-2">
-                    <img src="./src/image/logo.png" alt="Logo" className="w-10 h-10" />
+                    <img src="src/assets/logo.png" alt="Logo" className="w-10 h-10" />
                     <span className="text-2xl font-bold">ANEDEREW</span>
                 </div>
 

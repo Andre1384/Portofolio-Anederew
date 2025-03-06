@@ -11,7 +11,7 @@ function Home() {
     >
       <div className="relative">
         <img 
-          src="./src/image/my-image.png" 
+          src="src/assets/my-image.png" 
           alt="Profile" 
           className="w-70 h-70 rounded-full object-cover border-5 border-gray shadow-lg" 
         />
