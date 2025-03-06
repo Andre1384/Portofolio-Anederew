@@ -1,4 +1,18 @@
 import { useRef, useEffect } from 'react'
+import myPhotos1 from '../assets/photos1.png';
+import myPhotos2 from '../assets/photos2.png';
+import myPhotos3 from '../assets/photos3.png';
+import myPhotos4 from '../assets/photos4.png';
+import myPhotos5 from '../assets/photos5.png';
+import myPhotos6 from '../assets/photos6.png';
+import myPhotos7 from '../assets/photos7.png';
+import myPhotos8 from '../assets/photos8.png';
+import myPhotos9 from '../assets/photos9.png';
+import myPhotos10 from '../assets/photos10.png';
+import myPhotos11 from '../assets/photos11.png';
+import myPhotos12 from '../assets/photos12.png';
+import myPhotos13 from '../assets/photos13.png';
+
 import {
   Renderer,
   Camera,
@@ -328,19 +342,19 @@ class App {
   }
   createMedias(items, bend = 1, textColor, borderRadius, font) {
     const defaultItems = [
-      { image: `src/assets/photos1.png`, text: 'KURMATIF' },
-      { image: `src/assets/photos2.png`, text: 'SEMATIF' },
-      { image: `src/assets/photos3.png`, text: 'MILAD TIF-25' },
-      { image: `src/assets/photos4.png`, text: 'ASOMATIF' },
-      { image: `src/assets/photos5.png`, text: 'ASOMATIF' },
-      { image: `src/assets/photos6.png`, text: 'SEMATIF' },
-      { image: `src/assets/photos7.png`, text: 'SEMINAR NASIONAL' },
-      { image: `src/assets/photos8.png`, text: 'KONGRES HIMATIF-18' },
-      { image: `src/assets/photos9.png`, text: 'HIMATIF CUP' },
-      { image: `src/assets/photos10.png`, text: 'PORSENI' },
-      { image: `src/assets/photos11.png`, text: 'HIMATIF CUP' },
-      { image: `src/assets/photos12.png`, text: 'FORENSIK' },
-      { image: `src/assets/photos13.png`, text: 'MILAD TIF-25' }
+      { image: myPhotos1, text: 'KURMATIF' },
+      { image: myPhotos2, text: 'SEMATIF' },
+      { image: myPhotos3, text: 'MILAD TIF-25' },
+      { image: myPhotos4, text: 'ASOMATIF' },
+      { image: myPhotos5, text: 'ASOMATIF' },
+      { image: myPhotos6, text: 'SEMATIF' },
+      { image: myPhotos7, text: 'SEMINAR NASIONAL' },
+      { image: myPhotos8, text: 'KONGRES HIMATIF-18' },
+      { image: myPhotos9, text: 'HIMATIF CUP' },
+      { image: myPhotos10, text: 'PORSENI' },
+      { image: myPhotos11, text: 'HIMATIF CUP' },
+      { image: myPhotos12, text: 'FORENSIK' },
+      { image: myPhotos13, text: 'MILAD TIF-25' }
     ]
     const galleryItems = items && items.length ? items : defaultItems
     this.mediasImages = galleryItems.concat(galleryItems)
