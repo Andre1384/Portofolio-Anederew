@@ -328,18 +328,18 @@ class App {
   }
   createMedias(items, bend = 1, textColor, borderRadius, font) {
     const defaultItems = [
-      { image: `./src/assets/1.png`, text: '' },
-      { image: `./src/assets/2.png`, text: '' },
-      { image: `./src/assets/3.png`, text: '' },
-      { image: `./src/assets/4.png`, text: '' },
-      { image: `./src/assets/5.png`, text: '' },
-      { image: `./src/assets/6.png`, text: '' },
-      { image: `./src/assets/7.png`, text: '' },
-      { image: `./src/assets/8.png`, text: '' },
-      { image: `./src/assets/9.png`, text: '' },
-      { image: `./src/assets/10.png`, text: '' },
-      { image: `./src/assets/11.png`, text: '' },
-      { image: `./src/assets/12.png`, text: '' }
+      { image: `./src/assets/1.png`, text: 'KURMATIF' },
+      { image: `./src/assets/2.png`, text: 'SEMATIF' },
+      { image: `./src/assets/3.png`, text: 'MILAD TIF-25' },
+      { image: `./src/assets/4.png`, text: 'ASOMATIF' },
+      { image: `./src/assets/5.png`, text: 'ASOMATIF' },
+      { image: `./src/assets/6.png`, text: 'SEMATIF' },
+      { image: `./src/assets/7.png`, text: 'SEMINAR NASIONAL' },
+      { image: `./src/assets/8.png`, text: 'KONGRES HIMATIF-18' },
+      { image: `./src/assets/9.png`, text: 'HIMATIF CUP' },
+      { image: `./src/assets/10.png`, text: 'PORSENI' },
+      { image: `./src/assets/11.png`, text: 'HIMATIF CUP' },
+      { image: `./src/assets/12.png`, text: 'FORENSIK' }
     ]
     const galleryItems = items && items.length ? items : defaultItems
     this.mediasImages = galleryItems.concat(galleryItems)
