@@ -11,7 +11,6 @@ import myPhotos9 from '../assets/photos9.png';
 import myPhotos10 from '../assets/photos10.png';
 import myPhotos11 from '../assets/photos11.png';
 import myPhotos12 from '../assets/photos12.png';
-import myPhotos13 from '../assets/photos13.png';
 
 import {
   Renderer,
@@ -353,8 +352,7 @@ class App {
       { image: myPhotos9, text: 'HIMATIF CUP' },
       { image: myPhotos10, text: 'PORSENI' },
       { image: myPhotos11, text: 'HIMATIF CUP' },
-      { image: myPhotos12, text: 'FORENSIK' },
-      { image: myPhotos13, text: 'MILAD TIF-25' }
+      { image: myPhotos12, text: 'FORENSIK' }
     ]
     const galleryItems = items && items.length ? items : defaultItems
     this.mediasImages = galleryItems.concat(galleryItems)
